@@ -10,13 +10,13 @@ def parse_file(path):
 def solve(seq, part):
     items = len(seq)
     if part == 1:
-        jump = 1
+        step = 1
     elif part == 2:
-        jump = items // 2
+        step = items // 2
     else:
         print('Wrong input')
         return
-    return sum(n for i, n in enumerate(seq) if n == seq[i - jump])
+    return sum(n for i, n in enumerate(seq) if n == seq[i - step])
 
 
 def main(path):

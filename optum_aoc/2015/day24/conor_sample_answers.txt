@@ -1,0 +1,3 @@
+correct answers for conor_input.txt
+part A 10439961859
+part B 72050269
